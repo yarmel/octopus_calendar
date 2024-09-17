@@ -108,6 +108,7 @@ public class SwiftDeviceCalendarPlugin: NSObject, FlutterPlugin, EKEventViewDele
     let retrieveCalendarsMethod = "retrieveCalendars"
     let retrieveEventsMethod = "retrieveEvents"
     let retrieveSourcesMethod = "retrieveSources"
+    let forceRefreshSourcesMethod = "forceRefreshSources"
     let createOrUpdateEventMethod = "createOrUpdateEvent"
     let createCalendarMethod = "createCalendar"
     let deleteCalendarMethod = "deleteCalendar"
